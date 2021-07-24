@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="RSADataValidationProject.DataValidationDemo.DataValidationTest">
+        <methods>
+          <include name="validateCheckBoxOption1Text"/>
+          <include name="validateHeaderText"/>
+          <include name="validatePromotionText"/>
+          <include name="validateRadioOption1Text"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="validateOpenWindowButtonText"/>
+        </methods>
+      </class> <!-- RSADataValidationProject.DataValidationDemo.DataValidationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
