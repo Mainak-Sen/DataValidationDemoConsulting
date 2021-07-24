@@ -19,7 +19,7 @@ import resources.Utilities;
 
 public class DataValidationTest extends Base {
 
-	private static Logger log = LogManager.getLogger(Base.class.getName());
+	private static Logger log = LogManager.getLogger(DataValidationTest.class.getName());
 	private static AutomationPractisePage automationPractisePage;
 	private static Map<String, String> fieldValueMap;
 

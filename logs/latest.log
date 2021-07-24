@@ -1,5 +1,0 @@
-24 07 2021 22:03:05.964 [main] INFO  resources.Base - Driver is initialised 
-24 07 2021 22:03:10.951 [main] INFO  resources.Base - Successfully launched url
-24 07 2021 22:03:10.953 [main] INFO  resources.Base - Successfully deleted report file of previous run
-24 07 2021 22:03:10.991 [main] INFO  resources.Base - Successfully extracted field-value mapping from latest modified file
-24 07 2021 22:03:13.107 [main] INFO  resources.Base - Successfully quit driver
