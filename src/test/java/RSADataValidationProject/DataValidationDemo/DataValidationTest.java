@@ -17,6 +17,7 @@ import pageObjects.AutomationPractisePage;
 import resources.Base;
 import resources.Utilities;
 
+/*Test class to write the logic and execute test script for AutomationPractisePage*/
 public class DataValidationTest extends Base {
 
 	private static Logger log = LogManager.getLogger(DataValidationTest.class.getName());
@@ -25,12 +26,13 @@ public class DataValidationTest extends Base {
 
 	@BeforeTest
 	public void Setup() throws IOException {
+		// initialize the driver and launch the desired url
 		driver = initializeDriver();
 		log.info("Driver is initialised ");
 		driver.get(prop.getProperty("url"));
 		log.info("Successfully launched url");
 
-		// delete dataFile of last run
+		// delete dataFile of last run if it exists
 		try {
 			Files.deleteIfExists(Paths.get("./Data/dataFile.txt"));
 		} catch (NoSuchFileException e) {
@@ -84,7 +86,7 @@ public class DataValidationTest extends Base {
 
 	@AfterTest
 	public void teardown() {
-
+		// tear-down method for cleanup process
 		driver.quit();
 		log.info("Successfully quit driver");
 		driver = null;
